@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><%= title %></title>
+        <link rel="stylesheet" href="/css/main.css">
+    <%- include ('partials/head')%>
+</head>
+
+
+<body>
+    <%- include ('partials/navegacion')%>
+
+
+    <div class="container p5">
+        <div class="row">
+            <div class="col-sm-4 offset-md-4">
+
+                <div class="card animated flipInX">
+                    <div class="card-header bg-dark text-white text-center">
+                        <h3>Contacto</h3>
+
+                    </div>
+                    <div class="car-body">
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Comentario"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button>Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <%- include ('partials/footer')%>
+</body>
+
+
+
+</html>
